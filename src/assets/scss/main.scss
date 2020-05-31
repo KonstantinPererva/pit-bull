@@ -1,8 +1,8 @@
-//@import "utils/vars";
-//@import "utils/mixins";
-//@import "utils/normalize";
-//@import "utils/reset";
-//@import "utils/fonts";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/normalize";
+@import "utils/reset";
+@import "utils/fonts";
 @import "utils/base";
 
 * {
@@ -18,4 +18,34 @@
 }
 
 //@import "../css/style.css";
-//@import "popup/popup";
+@import "button/button-main";
+@import "button/button-main";
+@import "footer/footer";
+@import "footer/footer-content";
+@import "grid/page-content";
+@import "grid/page-col";
+@import "grid/page-row";
+@import "header/header";
+@import "header/header-content";
+@import "main/main";
+@import "section/section";
+@import "section/section-title";
+@import "section/section-button";
+@import "section/section-empty";
+@import "wrapper/wrapper";
+@import "banner/banner";
+@import "menu/main-menu-list";
+@import "menu/main-menu-item";
+@import "menu/main-menu-link";
+@import "menu/main-menu-nav";
+@import "language/main-language-title";
+@import "language/main-language-dropdown";
+@import "media-box/media-box";
+@import "media-box/media-box-img";
+@import "media-box/media-box-title";
+@import "soc-net/main-soc-net";
+@import "soc-net/main-soc-net-list";
+@import "soc-net/main-soc-net-item";
+@import "soc-net/main-soc-net-link";
+@import "address/main-address-item";
+@import "address/main-address";

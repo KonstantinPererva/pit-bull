@@ -1,0 +1,15 @@
+.main-menu-link {
+  display: block;
+  padding: 5px 2px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 150ms;
+  text-decoration: none;
+
+  &:hover {
+    color: $c-main;
+    text-decoration: none;
+  }
+}

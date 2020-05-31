@@ -1,10 +1,16 @@
-html, body {
+html {
   font-size: 14px;
 }
 
 body {
   margin: 0;
   padding: 0;
+  background: $c-bg-main;
+  font-family: $f-g;
+}
+
+html, body {
+  height: 100%;
 }
 
 svg {

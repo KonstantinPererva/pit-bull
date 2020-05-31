@@ -1,0 +1,26 @@
+.section {
+  padding: ceil(100% / 2 * 0.0349) 0;
+
+  &_mt {
+    margin-top: floor(-100% / 2 * 0.0349 * 2);
+  }
+
+  &__rotate {
+    transform: skewY(-2deg);
+    overflow: hidden;
+    background: $c-bg-section;
+  }
+
+  &__un-rotate {
+    transform: skewY(2deg);
+  }
+
+  &-box {
+    max-width: 100%;
+    padding: 0;
+
+    &__inner {
+      margin: floor(-100% / 2 * 0.0349) 0;
+    }
+  }
+}

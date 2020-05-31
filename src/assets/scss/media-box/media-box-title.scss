@@ -1,0 +1,23 @@
+.media-box-title {
+  position: relative;
+  z-index: 1;
+  border-radius: 0 0 5px 5px;
+  margin: -5px 0 0;
+  padding: 25px 0 8px;
+
+  &__text {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 18px;
+    transition: 150ms;
+  }
+
+  &__time {
+    display: block;
+    color: #555555;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 8px 0 0;
+  }
+}

@@ -1,0 +1,9 @@
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__address, &__soc-net {
+    min-width: 216px;
+  }
+}

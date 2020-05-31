@@ -1,0 +1,18 @@
+.button-main {
+  @include button;
+  border-color: $c-main;
+  color: $c-main;
+
+  &_long {
+    padding: 0 40px;
+
+    @media (max-width: 420px) {
+      width: 100%;
+    }
+  }
+
+  &:hover, &:focus, &:active {
+    background: $c-main;
+    color: #fff;
+  }
+}

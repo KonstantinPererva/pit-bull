@@ -1,0 +1,11 @@
+.page-col {
+  flex-shrink: 0;
+
+  &.wr-media-box-video {
+    @include grid(3, 2.7, 2.7);
+  }
+
+  &.wr-media-box-news {
+    @include grid(4, 2.7, 2.7);
+  }
+}

@@ -6,4 +6,26 @@
   &__address, &__soc-net {
     min-width: 216px;
   }
+
+  &__soc-net {
+    position: relative;
+
+    & .product {
+      width: 32px;
+      height: 88px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: -141px;
+      margin: auto;
+
+      & img {
+        display: block;
+      }
+
+      &__link {
+        display: block;
+      }
+    }
+  }
 }

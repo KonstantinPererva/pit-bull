@@ -5,4 +5,13 @@
   font-weight: bold;
   white-space: nowrap;
   color: #fff;
+  transition: 150ms;
+
+  & a {
+    color: #fff;
+
+    &:hover {
+      color: $c-main;
+    }
+  }
 }

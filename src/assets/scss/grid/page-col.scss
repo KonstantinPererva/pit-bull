@@ -8,4 +8,8 @@
   &.wr-media-box-news {
     @include grid(4, 2.7, 2.7);
   }
+
+  &.wr-personal-card-coupled {
+    @include grid(5, 0, 0);
+  }
 }

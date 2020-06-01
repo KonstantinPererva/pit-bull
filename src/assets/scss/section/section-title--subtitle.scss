@@ -1,0 +1,11 @@
+.section-title--subtitle {
+  margin: 28px 0;
+
+  & .section-title {
+    margin: 0;
+  }
+
+  & .section-subtitle {
+    margin: 8px 0 0;
+  }
+}

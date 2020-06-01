@@ -1,0 +1,27 @@
+.personal-card-info-box {
+  width: 70px;
+  height: 70px;
+  border: 2px solid $c-main;
+  border-radius: 100%;
+  padding: 5px;
+  margin: 0 auto;
+
+  &__inner {
+    background: #1E1E1F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 900;
+    overflow: hidden;
+
+    & img {
+      display: block;
+    }
+  }
+}

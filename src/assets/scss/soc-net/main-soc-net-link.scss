@@ -7,5 +7,15 @@
 
   & svg {
     flex-shrink: 0;
+
+    & path {
+      transition: 150ms;
+    }
+  }
+
+  &:hover {
+    & svg path {
+      fill: $c-main;
+    }
   }
 }

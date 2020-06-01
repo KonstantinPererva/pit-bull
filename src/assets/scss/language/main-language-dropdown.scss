@@ -1,3 +1,7 @@
 .main-language-dropdown {
   display: none;
+  position: absolute;
+  top: calc(100% - 1px);
+  width: 100%;
+  background: #0D0D0D;
 }

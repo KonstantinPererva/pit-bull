@@ -1,0 +1,12 @@
+.main-logo {
+  display: inline-block;
+  vertical-align: top;
+
+  & img {
+    display: block;
+  }
+
+  & a, & span {
+    display: block;
+  }
+}

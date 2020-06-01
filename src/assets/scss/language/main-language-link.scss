@@ -1,0 +1,16 @@
+.main-language-link {
+  display: inline-block;
+  vertical-align: top;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 2px;
+  transition: 150ms;
+
+  &:hover {
+    color: $c-main;
+    text-decoration: underline;
+  }
+}

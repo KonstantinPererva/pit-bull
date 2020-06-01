@@ -1,3 +1,15 @@
-.personal-card {
+.personal-card, .personal-card-wide {
+  display: block;
 
+  &:hover {
+    & .personal-card-title {
+      color: $c-main;
+    }
+  }
+}
+
+.personal-card-wide {
+  & .personal-card-img {
+    padding: 152.94% 0 0;
+  }
 }

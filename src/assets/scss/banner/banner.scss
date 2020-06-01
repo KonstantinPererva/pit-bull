@@ -1,6 +1,10 @@
 .banner {
-  & img {
-    width: 100%;
-    display: block;
+  margin: floor(-100% / 2 * 0.0349) 0;
+
+  &__picture {
+    & picture, & img {
+      width: 100%;
+      display: block;
+    }
   }
 }

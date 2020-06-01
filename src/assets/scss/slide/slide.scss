@@ -1,0 +1,10 @@
+[data-indicator] {
+  &.open {
+    transform: rotate(180deg);
+  }
+}
+
+[data-box-dropdown] {
+  display: none;
+  overflow-y: hidden;
+}

@@ -22,6 +22,7 @@
 @import "button/button-main";
 @import "footer/footer";
 @import "footer/footer-content";
+@import "grid/page-section";
 @import "grid/page-content";
 @import "grid/page-col";
 @import "grid/page-row";
@@ -30,6 +31,8 @@
 @import "main/main";
 @import "section/section";
 @import "section/section-title";
+@import "section/section-subtitle";
+@import "section/section-title--subtitle";
 @import "section/section-button";
 @import "section/section-empty";
 @import "wrapper/wrapper";
@@ -38,8 +41,11 @@
 @import "menu/main-menu-item";
 @import "menu/main-menu-link";
 @import "menu/main-menu-nav";
+@import "language/main-language";
 @import "language/main-language-title";
 @import "language/main-language-dropdown";
+@import "language/main-language-item";
+@import "language/main-language-link";
 @import "media-box/media-box";
 @import "media-box/media-box-img";
 @import "media-box/media-box-title";
@@ -49,3 +55,15 @@
 @import "soc-net/main-soc-net-link";
 @import "address/main-address-item";
 @import "address/main-address";
+@import "personal-card/personal-card";
+@import "personal-card/personal-card-img";
+@import "personal-card/personal-card-data";
+@import "personal-card/personal-card-info-box";
+@import "personal-card/personal-card-title";
+@import "personal-card/personal-card-soc-net";
+@import "personal-card/personal-card-coupled";
+@import "personal-card/personal-card-coupled-img";
+@import "media-content/media-content";
+@import "subsection-title/subsection-title";
+@import "main-logo/main-logo";
+@import "slide/slide";

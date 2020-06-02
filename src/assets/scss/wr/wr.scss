@@ -1,0 +1,33 @@
+.wr-slider {
+  position: relative;
+  margin: 0 0 50px;
+
+  @media (max-width: 767px) {
+    margin: 0 0 30px;
+  }
+}
+
+.warning-info {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #373737;
+  margin: 50px 0 0;
+
+  @media (max-width: 1024px) {
+    display: flex;
+  }
+
+  @media (max-width: 992px) {
+    margin: 30px 0 0;
+  }
+
+  &__ico {
+    margin: 0 11px;
+  }
+}

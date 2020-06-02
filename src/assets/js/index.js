@@ -258,101 +258,128 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (document.querySelector('.winners-slider')) {
         var winnersSlider = new Swiper('.winners-slider', {
-            slidesPerView: 6,
-            spaceBetween: 30,
-            // navigation: {
-            //     nextEl: self.btnNext,
-            //     prevEl: self.btnPrev,
-            // },
-            // breakpoints: {
-            //     // when window width is >= 320px
-            //     320: {
-            //         slidesPerView: 1,
-            //     },
-            //     // when window width is >= 768
-            //     640: {
-            //         slidesPerView: 2,
-            //     },
-            //     // when window width is >= 992
-            //     992: {
-            //         slidesPerView: 3,
-            //     },
-            //     // when window width is >= 1280
-            //     1280: {
-            //         slidesPerView: 4,
-            //     },
-            //     // when window width is >= 1600
-            //     1600: {
-            //         slidesPerView: 5,
-            //     }
-            // }
+            slidesPerView: 2,
+            spaceBetween: 16,
+            navigation: {
+                nextEl: '.button-winners-slider-next',
+                prevEl: '.button-winners-slider-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 540
+                540: {
+                    slidesPerView: 3,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 768
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 1024
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+                // when window width is >= 1152
+                1152: {
+                    slidesPerView: 5,
+                    spaceBetween: 30,
+                },
+                // when window width is >= 1200
+                1200: {
+                    slidesPerView: 6,
+                    spaceBetween: 30,
+                },
+            }
         });
     }
 
     if (document.querySelector('.finalists-slider')) {
         var finalistsSlider = new Swiper('.finalists-slider', {
-            slidesPerView: 4,
-            spaceBetween: 30,
-            // navigation: {
-            //     nextEl: self.btnNext,
-            //     prevEl: self.btnPrev,
-            // },
-            // breakpoints: {
-            //     // when window width is >= 320px
-            //     320: {
-            //         slidesPerView: 1,
-            //     },
-            //     // when window width is >= 768
-            //     640: {
-            //         slidesPerView: 2,
-            //     },
-            //     // when window width is >= 992
-            //     992: {
-            //         slidesPerView: 3,
-            //     },
-            //     // when window width is >= 1280
-            //     1280: {
-            //         slidesPerView: 4,
-            //     },
-            //     // when window width is >= 1600
-            //     1600: {
-            //         slidesPerView: 5,
-            //     }
-            // }
+            slidesPerView: 1,
+            spaceBetween: 16,
+            navigation: {
+                nextEl: '.button-finalists-slider-next',
+                prevEl: '.button-finalists-slider-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 540
+                540: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 768
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 992
+                992: {
+                    slidesPerView: 4,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 1024
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                }, // when window width is >= 1152
+                1152: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+            }
         });
     }
 
     if (document.querySelector('.mentors-slider')) {
         var mentorsSlider = new Swiper('.mentors-slider', {
-            slidesPerView: 4,
-            spaceBetween: 30,
-            // navigation: {
-            //     nextEl: self.btnNext,
-            //     prevEl: self.btnPrev,
-            // },
-            // breakpoints: {
-            //     // when window width is >= 320px
-            //     320: {
-            //         slidesPerView: 1,
-            //     },
-            //     // when window width is >= 768
-            //     640: {
-            //         slidesPerView: 2,
-            //     },
-            //     // when window width is >= 992
-            //     992: {
-            //         slidesPerView: 3,
-            //     },
-            //     // when window width is >= 1280
-            //     1280: {
-            //         slidesPerView: 4,
-            //     },
-            //     // when window width is >= 1600
-            //     1600: {
-            //         slidesPerView: 5,
-            //     }
-            // }
+            slidesPerView: 1,
+            spaceBetween: 16,
+            navigation: {
+                nextEl: '.button-mentors-slider-next',
+                prevEl: '.button-mentors-slider-prev',
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 540
+                540: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 768
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 992
+                992: {
+                    slidesPerView: 4,
+                    spaceBetween: 16,
+                },
+                // when window width is >= 1024
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                }, // when window width is >= 1152
+                1152: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+            }
         });
     }
-
 })

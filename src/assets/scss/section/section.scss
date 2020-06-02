@@ -1,17 +1,18 @@
 .section {
-  padding: ceil(100% / 2 * 0.0349) 0;
+  //padding: ceil(100% / 2 * 0.0349) 0;
+  //margin: floor(-100% / 2 * 0.0349) 0;
 
   &_mt {
-    margin-top: floor(-100% / 2 * 0.0349 * 2);
+    margin-top: floor(-100% * 0.0349);
   }
 
   &__rotate {
-    transform: skewY(-2deg);
+    transform: perspective(1px) skewY(-2deg) translateZ(0);
     overflow: hidden;
     background: $c-bg-section;
   }
 
   &__un-rotate {
-    transform: skewY(2deg);
+    transform: perspective(1px) skewY(2deg) translateZ(0);
   }
 }

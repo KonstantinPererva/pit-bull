@@ -6,4 +6,8 @@
   width: 100%;
   background: $c-bg-section;
   z-index: 100;
+
+  @media (max-width: 992px) {
+
+  }
 }

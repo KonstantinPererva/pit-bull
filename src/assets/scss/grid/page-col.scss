@@ -3,13 +3,73 @@
 
   &.wr-media-box-video {
     @include grid(3, 2.7, 2.7);
+
+    @media (max-width: 767px) {
+      &:nth-child(3n) {
+        margin-right: auto;
+      }
+
+      @include grid(2, 2.7, 4);
+    }
+
+    @media (max-width: 479px) {
+      &:nth-child(2n) {
+        margin-right: auto;
+      }
+
+      @include grid(1, 0, 6);
+    }
   }
 
   &.wr-media-box-news {
     @include grid(4, 2.7, 2.7);
+
+    @media (max-width: 992px) {
+      &:nth-child(4n) {
+        margin-right: auto;
+      }
+
+      @include grid(3, 2.7, 2.7);
+    }
+
+    @media (max-width: 768px) {
+      &:nth-child(3n) {
+        margin-right: auto;
+      }
+
+      @include grid(2, 4, 4);
+    }
+
+    @media (max-width: 479px) {
+      &:nth-child(2n) {
+        margin-right: auto;
+      }
+
+      @include grid(1, 0, 6);
+    }
   }
 
   &.wr-personal-card-coupled {
     @include grid(5, 0, 0);
+
+    @media (max-width: 1024px) {
+      @include grid(4, 0, 0);
+    }
+
+    @media (max-width: 1024px) {
+      @include grid(4, 0, 0);
+    }
+
+    @media (max-width: 992px) {
+      @include grid(3, 0, 0);
+    }
+
+    @media (max-width: 680px) {
+      @include grid(2, 0, 0);
+    }
+
+    @media (max-width: 479px) {
+      @include grid(1, 0, 0);
+    }
   }
 }

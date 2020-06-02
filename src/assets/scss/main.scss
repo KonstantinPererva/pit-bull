@@ -19,7 +19,7 @@
 
 //@import "../css/style.css";
 @import "button/button-main";
-@import "button/button-main";
+@import "button/button-slider";
 @import "footer/footer";
 @import "footer/footer-content";
 @import "grid/page-section";
@@ -63,7 +63,18 @@
 @import "personal-card/personal-card-soc-net";
 @import "personal-card/personal-card-coupled";
 @import "personal-card/personal-card-coupled-img";
+@import "personal-card/personal-card-coupled-name";
+@import "personal-card/personal-card-coupled-city";
+@import "personal-card/personal-card-coupled-info";
 @import "media-content/media-content";
 @import "subsection-title/subsection-title";
 @import "main-logo/main-logo";
 @import "slide/slide";
+@import "step/step-box";
+@import "step/step-card";
+@import "step/step-card-descr";
+@import "step/step-card-index";
+@import "step/step-card-title";
+@import "step/step-item";
+@import "step/step-list";
+@import "wr/wr";

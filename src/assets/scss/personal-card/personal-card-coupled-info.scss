@@ -1,0 +1,22 @@
+.personal-card-coupled-info {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(100%);
+  opacity: 0;
+  padding: 17px 22px;
+  transition: 200ms;
+  background: linear-gradient(180deg, rgba(5, 5, 5, 0.7) 32.88%, rgba(5, 5, 5, 1) 100%);
+
+  @media (max-width: 1151px) {
+    transform: translateY(0);
+    top: auto;
+    opacity: 1;
+  }
+}

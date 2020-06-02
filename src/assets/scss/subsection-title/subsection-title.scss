@@ -7,4 +7,12 @@
   padding: 0 0 20px;
   border-bottom: 2px solid currentColor;
   margin: 0 0 30px;
+
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+.subsection {
+  margin: 0 0 20px;
 }

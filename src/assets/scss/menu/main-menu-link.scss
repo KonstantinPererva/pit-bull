@@ -12,4 +12,8 @@
     color: $c-main;
     text-decoration: none;
   }
+
+  &.active {
+    color: $c-main;
+  }
 }

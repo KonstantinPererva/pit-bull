@@ -1,4 +1,13 @@
 .personal-card-coupled {
+  display: block;
   position: relative;
   padding: 100% 0 0;
+  overflow: hidden;
+
+  &:hover {
+    .personal-card-coupled-info {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 }

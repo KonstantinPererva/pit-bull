@@ -5,4 +5,8 @@
   flex-direction: column;
   min-height: 100%;
   padding: 67px 0 0;
+
+  @media (max-width: 992px) {
+    padding: 112px 0 0;
+  }
 }

@@ -1,0 +1,234 @@
+.finalist-card {
+  width: calc(50% - 2.7% / 2);
+  margin: 0 2.7% 2.7%  0;
+
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+.finalist-card-img {
+  padding: 56% 0 0;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+
+  & img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+  }
+
+  & .sticker {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 28px;
+    height: 40px;
+    margin: auto;
+    z-index: 2;
+
+    & svg path {
+      transition: 150ms;
+    }
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    background: rgba(0,0,0,.5);
+    transition: 150ms;
+  }
+
+  &:hover {
+    & .sticker svg path {
+      fill: #EB008B;
+    }
+
+    &:after {
+      opacity: 1;
+    }
+  }
+}
+
+.finalist-card-panel {
+  display: flex;
+  padding: 30px;
+  background: #161616;
+
+  &__left {
+    flex-grow: 1;
+  }
+
+  &__right {
+    flex-shrink: 0;
+  }
+}
+
+.finalist-card-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin: 0 0 8px;
+}
+
+.finalist-card-track {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #8a8a8a;
+}
+
+.button-vote-finalist {
+  display: inline-block;
+  vertical-align: top;
+  min-width: 141px;
+  height: 42px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 30px;
+  border: 0;
+  background: #EB008B;
+  white-space: nowrap;
+  user-select: none;
+  outline: none;
+  cursor: pointer;
+  transition: 150ms;
+
+  &.active {
+    background: #28282C;
+
+    &:hover {
+      background: #82004d;
+    }
+  }
+
+  &:hover {
+    background: #82004d;
+  }
+}
+
+.finalist-card-mentor {
+  background: #0C0C0D;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+
+  &__left {
+    flex-shrink: 0;
+    margin: 0 15px 0 0;
+  }
+
+  &__right {
+    flex-grow: 1;
+  }
+
+  & .personal-card-info-box {
+    width: 64px;
+    height: 64px;
+    padding: 3px;
+    border: 1px solid #EB008B;
+  }
+
+  &__name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #EB008B;
+    margin: 0 0 8px;
+  }
+
+  &__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #9e9e9e;
+  }
+}
+
+.finalist-card-descr {
+  padding: 30px;
+  background: #161616;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 135%;
+  color: #FFFFFF;
+
+  & p {
+    margin: 0;
+  }
+
+  & p + p {
+    margin: 10px 0 0;
+  }
+}
+@media (max-width: 992px){
+  .final.page-row {
+    display: block;
+  }
+  .finalist-card {
+    max-width: 540px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &:nth-child(even) {
+      margin-right: auto;
+    }
+
+    & + .finalist-card {
+      margin-top: 50px;
+    }
+  }
+}
+@media (max-width: 540px) {
+  .button-vote-finalist {
+    font-size: 12px;
+    line-height: 12px;
+    min-width: 123px;
+  }
+  .finalist-card-name {
+    font-size: 16px;
+    line-height: 15px;
+  }
+  .finalist-card-track {
+    font-size: 14px;
+    line-height: 13px;
+  }
+  .finalist-card-descr {
+    font-size: 14px;
+  }
+  .finalist-card-panel {
+    padding: 20px 15px;
+  }
+  .finalist-card-mentor {
+    padding: 20px 15px;
+  }
+  .finalist-card-descr {
+    padding: 20px 15px;
+  }
+}
